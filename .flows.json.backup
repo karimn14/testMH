@@ -24,6 +24,14 @@
         "env": []
     },
     {
+        "id": "c8d4c5b3ebfbc758",
+        "type": "tab",
+        "label": "ModuleSiswa",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "108ea5926394b962",
         "type": "tab",
         "label": "Home New (MH, PV, Bayu)",
@@ -316,11 +324,12 @@
             "3ed2169e15dd1108",
             "cf3d2f4813d9ba46",
             "30d67092df78a2ee",
-            "0c5e296fe86c27a5"
+            "0c5e296fe86c27a5",
+            "a521f130c24b94d3"
         ],
         "x": 44,
         "y": 19,
-        "w": 812,
+        "w": 942,
         "h": 302
     },
     {
@@ -373,7 +382,8 @@
             "ce93c475db18bbd5",
             "e8032f6999025e40",
             "5ae1442b02af3493",
-            "522a6c1a1b6b19f5"
+            "522a6c1a1b6b19f5",
+            "7f7dd24bd8241765"
         ],
         "x": 54,
         "y": 79,
@@ -400,7 +410,9 @@
             "5f6ce26ed5e6fafe",
             "16b0787e379641cb",
             "f2872199ad6e6883",
-            "b8ec0be2fa449ef4"
+            "b8ec0be2fa449ef4",
+            "e2a4dc0364a4edc5",
+            "ea3398cd98a3c1f7"
         ],
         "x": 74,
         "y": 459,
@@ -422,7 +434,6 @@
         },
         "nodes": [
             "7c5953820b76070d",
-            "011959efbe8e25d1",
             "fc01a96cf8bfe79f",
             "ab5faf99270f45bf",
             "d0ef5a87a260c736",
@@ -475,7 +486,9 @@
             "43a6f05670cce959",
             "e608c1910d5b12ce",
             "827e109032c0abc1",
-            "0a6a27d7e4bf41ae"
+            "0a6a27d7e4bf41ae",
+            "c750a610b84ae442",
+            "ef27b25e8ec6bb6a"
         ],
         "x": 14,
         "y": 819,
@@ -703,6 +716,41 @@
         "y": 1779,
         "w": 852,
         "h": 522
+    },
+    {
+        "id": "2cc87bfbd5d027aa",
+        "type": "group",
+        "z": "c8d4c5b3ebfbc758",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bd178a12998da658",
+            "2efbe0d289a0a49c",
+            "ad4b4e75b7ef4e9b",
+            "b28dd9611b71a1dc",
+            "2f827abc7b733808",
+            "cbfc063daebccf55",
+            "3e2933e4059ddc0c",
+            "ec7d1b6706c15862",
+            "ddf1cd61311d1326",
+            "da154d150ca2d800",
+            "da44e28c1f9ac1bc",
+            "61257cce80cb9256",
+            "b02b08141345d853",
+            "1c2c77d3ec258681",
+            "c42ca88e5b856ad7"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 912,
+        "h": 382
     },
     {
         "id": "ae91f222be969727",
@@ -1357,7 +1405,7 @@
         "type": "ui_tab",
         "name": "MHSiswa",
         "icon": "smoke_rooms",
-        "order": 5,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -1366,7 +1414,7 @@
         "type": "ui_tab",
         "name": "DataMH",
         "icon": "pool",
-        "order": 6,
+        "order": 7,
         "disabled": false,
         "hidden": false
     },
@@ -1375,7 +1423,7 @@
         "type": "ui_tab",
         "name": "PVGuru",
         "icon": "mi-videogame_asset",
-        "order": 8,
+        "order": 9,
         "disabled": false,
         "hidden": false
     },
@@ -1384,7 +1432,7 @@
         "type": "ui_tab",
         "name": "PVSiswa",
         "icon": "mi-videogame_asset",
-        "order": 9,
+        "order": 10,
         "disabled": false,
         "hidden": false
     },
@@ -1393,7 +1441,7 @@
         "type": "ui_tab",
         "name": "DataPV",
         "icon": "pregnant_woman",
-        "order": 10,
+        "order": 11,
         "disabled": false,
         "hidden": false
     },
@@ -1722,7 +1770,7 @@
         "type": "ui_tab",
         "name": "MHGuru",
         "icon": "smoke_rooms",
-        "order": 4,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -1762,7 +1810,7 @@
         "type": "ui_tab",
         "name": "Test",
         "icon": "public",
-        "order": 7,
+        "order": 8,
         "disabled": false,
         "hidden": false
     },
@@ -1963,7 +2011,7 @@
         "type": "ui_tab",
         "name": "HomeNew",
         "icon": "dashboard",
-        "order": 3,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -2296,36 +2344,6 @@
         "className": "whitespace1"
     },
     {
-        "id": "e30f138f4a6347fd",
-        "type": "ui_spacer",
-        "z": "690d2885598de281",
-        "name": "spacer",
-        "group": "20fb23728c576ba8",
-        "order": 5,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "6ab2eb8a4713d214",
-        "type": "ui_spacer",
-        "z": "690d2885598de281",
-        "name": "spacer",
-        "group": "bbc71ca6f91aa02f",
-        "order": 25,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a21960036d21fba3",
-        "type": "ui_spacer",
-        "z": "690d2885598de281",
-        "name": "spacer",
-        "group": "bbc71ca6f91aa02f",
-        "order": 27,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "a019cd13f588c594",
         "type": "ui_group",
         "name": "Module1",
@@ -2493,9 +2511,29 @@
         "height": 1
     },
     {
-        "id": "a59ff0a281b291e7",
+        "id": "bd6c0d4dac6606ad",
+        "type": "ui_tab",
+        "name": "ModuleSiswa",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9a4aecf0a4c03704",
+        "type": "ui_group",
+        "name": "Header",
+        "tab": "bd6c0d4dac6606ad",
+        "order": 1,
+        "disp": false,
+        "width": "25",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "92baa79e634cef5c",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "af9152ac9d34a165",
         "order": 6,
@@ -2503,9 +2541,9 @@
         "height": 1
     },
     {
-        "id": "827a9001fe1ae93a",
+        "id": "580ef3d53e5fd1c2",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "a019cd13f588c594",
         "order": 2,
@@ -2513,9 +2551,9 @@
         "height": 1
     },
     {
-        "id": "8b04256d5a474c6c",
+        "id": "0c7359573df41295",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "c0fd3ff3e6f1e769",
         "order": 2,
@@ -2523,9 +2561,9 @@
         "height": 1
     },
     {
-        "id": "e8af244f2b0f8d59",
+        "id": "6b1dd0e9b4fa32f2",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "bcf5d2534fe60ebd",
         "order": 2,
@@ -2533,9 +2571,9 @@
         "height": 1
     },
     {
-        "id": "c66fdac3f9b2a571",
+        "id": "4e5c4d0ed4cb7fb4",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "460b5cddd9966df3",
         "order": 2,
@@ -2543,9 +2581,9 @@
         "height": 1
     },
     {
-        "id": "9212f4677f5635ed",
+        "id": "486ee191ec8821a8",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "9a48498afc26ad87",
         "order": 2,
@@ -2553,9 +2591,9 @@
         "height": 1
     },
     {
-        "id": "76c8bbea321cceb9",
+        "id": "6a9a4e7c41f13065",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "37670c7cdf07f95c",
         "order": 2,
@@ -2563,9 +2601,9 @@
         "height": 1
     },
     {
-        "id": "fd6e99514a899397",
+        "id": "a34b2c0a7765c4c5",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "bab2d50cf6b6042e",
         "order": 2,
@@ -2573,9 +2611,9 @@
         "height": 1
     },
     {
-        "id": "94f5b692d2ebb676",
+        "id": "1b59f1ed2c415f86",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "b9edefba39d75a97",
         "order": 2,
@@ -2583,9 +2621,9 @@
         "height": 1
     },
     {
-        "id": "b4fc9969fcaa56e0",
+        "id": "33935a67cde0f067",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "721fde1a40d2e6a0",
         "order": 2,
@@ -2593,9 +2631,9 @@
         "height": 1
     },
     {
-        "id": "791a7777de4cd6ad",
+        "id": "073efbbd248a804d",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "721fde1a40d2e6a0",
         "order": 3,
@@ -2603,13 +2641,106 @@
         "height": 1
     },
     {
-        "id": "f629ad5daffcb6ee",
+        "id": "9063e70150caa611",
         "type": "ui_spacer",
-        "z": "33b048cdddd2dc37",
+        "z": "690d2885598de281",
         "name": "spacer",
         "group": "721fde1a40d2e6a0",
         "order": 6,
         "width": 17,
+        "height": 1
+    },
+    {
+        "id": "69040689e3769ada",
+        "type": "ui_spacer",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "spacer",
+        "group": "20fb23728c576ba8",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "26a3cb6599f73126",
+        "type": "ui_group",
+        "name": "Whitespace1",
+        "tab": "bd6c0d4dac6606ad",
+        "order": 2,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "51d4d6575ac99a1a",
+        "type": "ui_group",
+        "name": "Module",
+        "tab": "bd6c0d4dac6606ad",
+        "order": 3,
+        "disp": false,
+        "width": "17",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "69fd483e2e8937b9",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "11f7e2462d75212c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2e34d5ad1ee4a229",
+        "type": "ui_spacer",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "spacer",
+        "group": "9a4aecf0a4c03704",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "6a834baffc338a52",
+        "type": "ui_spacer",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "spacer",
+        "group": "51d4d6575ac99a1a",
+        "order": 2,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "2a9a8af1d3c7481c",
+        "type": "ui_spacer",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "spacer",
+        "group": "51d4d6575ac99a1a",
+        "order": 6,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "86ce4637c5696de8",
+        "type": "ui_spacer",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "spacer",
+        "group": "51d4d6575ac99a1a",
+        "order": 7,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "7ab585f12eb867eb",
+        "type": "ui_spacer",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "spacer",
+        "group": "51d4d6575ac99a1a",
+        "order": 8,
+        "width": 14,
         "height": 1
     },
     {
@@ -2651,7 +2782,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 630,
-        "y": 540,
+        "y": 420,
         "wires": [
             []
         ]
@@ -2678,7 +2809,7 @@
         "payload": "{\"min\":0,\"max\":100}",
         "payloadType": "json",
         "x": 240,
-        "y": 540,
+        "y": 420,
         "wires": [
             [
                 "c4e36d17bdc8725e"
@@ -2698,7 +2829,7 @@
         "finalize": "",
         "libs": [],
         "x": 450,
-        "y": 540,
+        "y": 420,
         "wires": [
             [
                 "3caeaffcd2aabb1c"
@@ -3038,10 +3169,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 360,
+        "x": 540,
         "y": 260,
         "wires": [
-            []
+            [
+                "58123887e54f010b"
+            ]
         ]
     },
     {
@@ -3206,7 +3339,8 @@
         "y": 200,
         "wires": [
             [
-                "93ad4513ca268ce8"
+                "93ad4513ca268ce8",
+                "7e241832a39e375f"
             ]
         ]
     },
@@ -3300,7 +3434,7 @@
         "z": "33b048cdddd2dc37",
         "g": "3c9e08addfb45fd7",
         "name": "function 118",
-        "func": "var modState = 0;\n\nmsg.payload = modState;\n\nreturn msg;",
+        "func": "var modState = 1;\n\nmsg.payload = modState;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -3356,6 +3490,69 @@
             [
                 "16b0787e379641cb"
             ]
+        ]
+    },
+    {
+        "id": "58123887e54f010b",
+        "type": "debug",
+        "z": "33b048cdddd2dc37",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e2a4dc0364a4edc5",
+        "type": "function",
+        "z": "33b048cdddd2dc37",
+        "g": "3c9e08addfb45fd7",
+        "name": "function 123",
+        "func": "var module = [0,0,0,0,0]\n\nmsg.payload = module;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 660,
+        "wires": [
+            [
+                "ea3398cd98a3c1f7"
+            ]
+        ]
+    },
+    {
+        "id": "ea3398cd98a3c1f7",
+        "type": "change",
+        "z": "33b048cdddd2dc37",
+        "g": "3c9e08addfb45fd7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "module",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 660,
+        "wires": [
+            []
         ]
     },
     {
@@ -3454,7 +3651,7 @@
         "order": 11,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    /* define any styles here - supports raw CSS */\n//styling all group\n    ui-card-panel{\n    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;\n    //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n    border-radius: 8px;\n}\n    .nr-dashboard-theme ui-card-panel {\n    border-radius: 8px !important; /* Set the desired border radius for containers */\n    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;\n    border: none;\n    background-color: white;\n    }\n\n/* Styling Group */\n    #ModuleGuru_Header\n     {\n    //border-radius: 8px !important; /* Set the desired border radius for containers */\n    //overflow: hidden; /* Ensure content does not overflow the rounded corners */\n    background-color: #f5f6fa !important; /* Set your desired background color */\n    border: none !important; /* Remove the border */\n    box-shadow: none;\n    }\n    \n    #ModuleGuru_WhiteSpace1 {\n        background-color: #f5f6fa !important; /* Set your desired background color */\n        border: none !important; /* Remove the border */\n        box-shadow: none;\n    }\n\n    #ModuleGuru_WhiteSpace1_cards >\n    md-card.nr-dashboard-text._md.layout-row.layout-align-space-between-center.nr-dashboard-widget-.whitespace0.visible{\n        background-color: #f5f6fa !important;\n    }\n\n    #ModuleGuru_Header md-card.nr-dashboard-text.Header-Title {\n    background-color: #f5f6fa !important; /* Set your desired background color */\n    border: none !important; \n    }\n\n    // warna page background\n    body {\n    background-color: #f5f6fa!important;\n    }\n    #Tab {\n    background-color: #f5f6fa !important;\n    }\n    \n    #ModuleGuru_Header_cards >\n    md-card.nr-dashboard-text._md.layout-row.layout-align-start-center.nr-dashboard-widget-.Header-Title.visible {\n    background-color: #f5f6fa !important;\n    }\n    #ModuleGuru_Header md-card.nr-dashboard-text.Header-Title {\n        background-color: #f5f6fa !important;}\n\n    .md-button {\n    background-color: #134B70 !important ;\n    border-radius: 8px;\n    .nr-dashboard-theme .nr-dashboard-template .md-button {\n    background-color: #134B70 !important\n    }\n\n// Style \n    \n    #svggraphics_7c5953820b76070d{\n        align-content: center;\n    } \n\n    #ModuleGuru_Module1_cards > \n    md-card.nr-dashboard-spacer._md.layout-row.layout-align-start-stretch.visible{\n        background-color: #f5f6fa !important; /* Set your desired background color */\n        border: none !important; /* Remove the border */\n        box-shadow: none;\n    }\n    #ModuleGuru_Module1_cards {\n        background-color: #f5f6fa !important; /* Set your desired background color */\n        border: none !important; /* Remove the border */\n        box-shadow: none;\n    }\n\n</style>\n",
+        "format": "<style>\n    /* define any styles here - supports raw CSS */\n//styling all group\n    ui-card-panel{\n    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;\n    //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n    border-radius: 8px;\n}\n    .nr-dashboard-theme ui-card-panel {\n    border-radius: 8px !important; /* Set the desired border radius for containers */\n    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;\n    border: none;\n    background-color: white;\n    }\n\n/* Styling Group */\n    #ModuleGuru_Header\n     {\n    //border-radius: 8px !important; /* Set the desired border radius for containers */\n    //overflow: hidden; /* Ensure content does not overflow the rounded corners */\n    background-color: #f5f6fa !important; /* Set your desired background color */\n    border: none !important; /* Remove the border */\n    box-shadow: none;\n    }\n    \n    #ModuleGuru_WhiteSpace1 {\n        background-color: #f5f6fa !important; /* Set your desired background color */\n        border: none !important; /* Remove the border */\n        box-shadow: none;\n    }\n\n    #ModuleGuru_WhiteSpace1_cards >\n    md-card.nr-dashboard-text._md.layout-row.layout-align-space-between-center.nr-dashboard-widget-.whitespace0.visible{\n        background-color: #f5f6fa !important;\n    }\n\n    #ModuleGuru_Header md-card.nr-dashboard-text.Header-Title {\n    background-color: #f5f6fa !important; /* Set your desired background color */\n    border: none !important; \n    }\n\n    // warna page background\n    body {\n    background-color: #f5f6fa!important;\n    }\n    #Tab {\n    background-color: #f5f6fa !important;\n    }\n    \n    #ModuleGuru_Header_cards >\n    md-card.nr-dashboard-text._md.layout-row.layout-align-start-center.nr-dashboard-widget-.Header-Title.visible {\n    background-color: #f5f6fa !important;\n    }\n    #ModuleGuru_Header md-card.nr-dashboard-text.Header-Title {\n        background-color: #f5f6fa !important;}\n\n    .md-button {\n    background-color: #134B70 !important ;\n    border-radius: 8px;\n    .nr-dashboard-theme .nr-dashboard-template .md-button {\n    background-color: #134B70 !important\n    }\n\n// Style \n    \n\n</style>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -3661,7 +3858,8 @@
         "y": 660,
         "wires": [
             [
-                "ceb9378fb29d9976"
+                "ceb9378fb29d9976",
+                "29256b6b3f584284"
             ]
         ]
     },
@@ -3699,28 +3897,6 @@
         "name": "SVGModule1",
         "x": 390,
         "y": 1240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "011959efbe8e25d1",
-        "type": "ui_template",
-        "z": "690d2885598de281",
-        "g": "a3055477e35a0cac",
-        "group": "0b1f7f2ba1d65be3",
-        "name": "",
-        "order": 2,
-        "width": 17,
-        "height": 1,
-        "format": "<style>\n    #go-fullscreen-btn {\n        height: 100%;\n        border-style: unset;\n    }\n    .btn-parent {\n        padding: 0 !important;\n    }\n</style>\n<md-button id=\"go-fullscreen-btn\" ng-click=\"send({payload:action('go fullscreen')})\" type=\"button\">Go Fullscreen\n</md-button>\n<script>\n    fsElem = document.documentElement;\n    theParentElem = document.getElementById(\"go-fullscreen-btn\").parentNode\n    theParentElem.classList.add('btn-parent')\n    \n    this.scope.action = function(params) {\n    console.log(\"params received is: \",params)\n    if (fsElem.requestFullscreen) {\n        fsElem.requestFullscreen();\n        } else if (elem.mozRequestFullScreen) { /* Firefox */\n        fsElem.mozRequestFullScreen();\n        } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */\n        fsElem.webkitRequestFullscreen();\n        } else if (elem.msRequestFullscreen) { /* IE/Edge */\n        fsElem.msRequestFullscreen();\n        }\n    // In fullscreen. Now hide the button.\n    document.getElementById(\"go-fullscreen-btn\").classList.add('ng-hide');\n    return {payload:\"Fullscreen is active.\"}\n    }\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 400,
-        "y": 1320,
         "wires": [
             []
         ]
@@ -4345,7 +4521,7 @@
         "group": "0c4601f4038aeb29",
         "order": 1,
         "width": 4,
-        "height": 27,
+        "height": 40,
         "name": "whitespace0",
         "label": "",
         "format": "",
@@ -4375,7 +4551,8 @@
         "y": 600,
         "wires": [
             [
-                "d2b60dff50bc9f2e"
+                "d2b60dff50bc9f2e",
+                "761b17316e2acf72"
             ]
         ]
     },
@@ -4480,7 +4657,7 @@
         "y": 920,
         "wires": [
             [
-                "e15aa96f18265840"
+                "c750a610b84ae442"
             ]
         ]
     },
@@ -4500,10 +4677,12 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 310,
+        "x": 410,
         "y": 920,
         "wires": [
-            []
+            [
+                "ef27b25e8ec6bb6a"
+            ]
         ]
     },
     {
@@ -7338,8 +7517,8 @@
         "bgcolor": "",
         "className": "Home-Button",
         "icon": "fa-cogs",
-        "payload": "",
-        "payloadType": "date",
+        "payload": "true",
+        "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
         "x": 480,
@@ -7356,7 +7535,7 @@
         "z": "690d2885598de281",
         "g": "a2927ec38ab527e3",
         "name": "Select User",
-        "func": "var user1 = global.get('user');\nvar user = msg.payload[0];\n\nif (user1 == \"siswa\"){\n    msg.payload = {\n        \"tab\":\"MHSiswa\"\n    }\n} else if (user1 == \"guru\"){\n    msg.payload = {\n        \"tab\":\"MHGuru\"\n    }\n}\n\nreturn msg;",
+        "func": "var user1 = global.get(\"user\");\n\nif (user1 == \"siswa\" && msg.payload == true){\n    msg.payload = {\n        \"tab\":\"MHSiswa\"\n    }\n} else if (user1 == \"guru\" && msg.payload == true){\n    msg.payload = {\n        \"tab\":\"MHGuru\"\n    }\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -7367,7 +7546,8 @@
         "y": 320,
         "wires": [
             [
-                "3500bb6d606c6baa"
+                "3500bb6d606c6baa",
+                "7f7dd24bd8241765"
             ]
         ]
     },
@@ -7392,7 +7572,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 270,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
                 "44ad6e326e141c4e"
@@ -7408,8 +7588,8 @@
         "links": [
             "b8ec0be2fa449ef4"
         ],
-        "x": 385,
-        "y": 700,
+        "x": 365,
+        "y": 720,
         "wires": []
     },
     {
@@ -7450,6 +7630,689 @@
                 "2167fc93e54efd24"
             ]
         ]
+    },
+    {
+        "id": "7f7dd24bd8241765",
+        "type": "debug",
+        "z": "690d2885598de281",
+        "g": "a2927ec38ab527e3",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "761b17316e2acf72",
+        "type": "debug",
+        "z": "690d2885598de281",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "29256b6b3f584284",
+        "type": "function",
+        "z": "690d2885598de281",
+        "name": "function 121",
+        "func": "msg.payload = \"Module config is saved\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c750a610b84ae442",
+        "type": "function",
+        "z": "690d2885598de281",
+        "g": "6972d499470c0e8d",
+        "name": "function 124",
+        "func": "msg.payload = \"Module config is saved\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 920,
+        "wires": [
+            [
+                "e15aa96f18265840"
+            ]
+        ]
+    },
+    {
+        "id": "ef27b25e8ec6bb6a",
+        "type": "function",
+        "z": "690d2885598de281",
+        "g": "6972d499470c0e8d",
+        "name": "set mod1",
+        "func": "var module = global.get(\"module\");\n\nmodule[0] = 1;\n\nglobal.set(\"module\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd178a12998da658",
+        "type": "ui_text",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "group": "9a4aecf0a4c03704",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Header Halaman",
+        "label": "",
+        "format": "Monitoring MicroHydro",
+        "layout": "row-left",
+        "className": "Header-Title",
+        "style": false,
+        "font": "Verdana,Verdana,Geneva,sans-serif",
+        "fontSize": "20",
+        "color": "#f7f7f7",
+        "x": 170,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "2efbe0d289a0a49c",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "Login",
+        "group": "9a4aecf0a4c03704",
+        "order": 8,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "Login-Button",
+        "icon": "{{msg.payload.icon}}",
+        "payload": "{\"tab\": \"Account\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "ad4b4e75b7ef4e9b"
+            ]
+        ]
+    },
+    {
+        "id": "ad4b4e75b7ef4e9b",
+        "type": "ui_ui_control",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "",
+        "events": "all",
+        "x": 860,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b28dd9611b71a1dc",
+        "type": "ui_text",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "group": "9a4aecf0a4c03704",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "State",
+        "format": "{{\"Running\"}}",
+        "layout": "row-left",
+        "className": "Header-Title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "2f827abc7b733808",
+        "type": "ui_template",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "group": "3b644f18c97d51e7",
+        "name": "CSS Styling ",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    /* define any styles here - supports raw CSS */\n\n/* Styling Group */\n    #ModuleSiswa_Header{\n    //border-radius: 8px !important; /* Set the desired border radius for containers */\n    //overflow: hidden; /* Ensure content does not overflow the rounded corners */\n    background-color: #f5f6fa !important; /* Set your desired background color */\n    border: none !important; /* Remove the border */\n    box-shadow: none;\n    }\n    \n    #ModuleSiswa_Whitespace1 {\n        background-color: #f5f6fa !important; /* Set your desired background color */\n        border: none !important; /* Remove the border */\n        box-shadow: none;\n    }\n\n    #ModuleSiswa_Whitespace1_cards >\n    md-card.nr-dashboard-text._md.layout-row.layout-align-space-between-center.nr-dashboard-widget-.whitespace1.visible{\n        background-color: #f5f6fa !important;\n    }\n\n    \n\n    #ModuleSiswa_Header md-card.nr-dashboard-text.Header-Title {\n    background-color: #f5f6fa !important; /* Set your desired background color */\n    border: none !important; \n    }\n\n// Style \n    \n\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 630,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cbfc063daebccf55",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "Home New",
+        "group": "9a4aecf0a4c03704",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Home",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "Home-Button",
+        "icon": "fa-home",
+        "payload": "{\"tab\":\"HomeNew\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "ad4b4e75b7ef4e9b"
+            ]
+        ]
+    },
+    {
+        "id": "3e2933e4059ddc0c",
+        "type": "function",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "function 120",
+        "func": "var user1 = global.get('user');\n\nvar myicon; // Declare the variable without assigning it yet\n\nif (user1 === \"siswa\") {\n    myicon = \"fa-graduation-cap\"; // Use string values for FontAwesome class names\n} else if (user1 === \"guru\") {\n    myicon = \"fa-user-circle\";\n}\n\n// Add the icon class to the msg object, or modify as needed\nmsg.payload = {\n    icon: myicon\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "2efbe0d289a0a49c",
+                "ec7d1b6706c15862"
+            ]
+        ]
+    },
+    {
+        "id": "ec7d1b6706c15862",
+        "type": "debug",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "debug 25",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 240,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ddf1cd61311d1326",
+        "type": "inject",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "3e2933e4059ddc0c"
+            ]
+        ]
+    },
+    {
+        "id": "da154d150ca2d800",
+        "type": "inject",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"tab\": \"ModuleSiswa\"}",
+        "payloadType": "json",
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "da44e28c1f9ac1bc"
+            ]
+        ]
+    },
+    {
+        "id": "da44e28c1f9ac1bc",
+        "type": "ui_ui_control",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "",
+        "events": "all",
+        "x": 440,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61257cce80cb9256",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "Module",
+        "group": "9a4aecf0a4c03704",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Module",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "Module-Button",
+        "icon": "book",
+        "payload": "{\"tab\":\"ModuleSiswa\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 380,
+        "wires": [
+            [
+                "ad4b4e75b7ef4e9b"
+            ]
+        ]
+    },
+    {
+        "id": "b02b08141345d853",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "Data",
+        "group": "9a4aecf0a4c03704",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "Data-Button",
+        "icon": "fa-bar-chart ",
+        "payload": "{\"tab\":\"DataMH\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "ad4b4e75b7ef4e9b"
+            ]
+        ]
+    },
+    {
+        "id": "1c2c77d3ec258681",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "Control",
+        "group": "9a4aecf0a4c03704",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Control",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "Home-Button",
+        "icon": "fa-cogs",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            [
+                "c42ca88e5b856ad7"
+            ]
+        ]
+    },
+    {
+        "id": "c42ca88e5b856ad7",
+        "type": "function",
+        "z": "c8d4c5b3ebfbc758",
+        "g": "2cc87bfbd5d027aa",
+        "name": "Select User",
+        "func": "var user1 = global.get('user');\nvar user = msg.payload[0];\n\nif (user1 == \"siswa\"){\n    msg.payload = {\n        \"tab\":\"MHSiswa\"\n    }\n} else if (user1 == \"guru\"){\n    msg.payload = {\n        \"tab\":\"MHGuru\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "ad4b4e75b7ef4e9b"
+            ]
+        ]
+    },
+    {
+        "id": "3d4f51d3c17b60b8",
+        "type": "ui_text",
+        "z": "c8d4c5b3ebfbc758",
+        "group": "26a3cb6599f73126",
+        "order": 1,
+        "width": 4,
+        "height": 40,
+        "name": "whitespace1",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "whitespace1",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 190,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "d0faf46e0bf0955d",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "",
+        "group": "51d4d6575ac99a1a",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Module 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "dashboard",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c02d268b62419d6",
+        "type": "ui_text",
+        "z": "c8d4c5b3ebfbc758",
+        "group": "51d4d6575ac99a1a",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "Select Module:",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 490,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "d18425e131bbcd23",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "",
+        "group": "51d4d6575ac99a1a",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Module 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "dashboard",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb0fab03b8239886",
+        "type": "ui_template",
+        "z": "c8d4c5b3ebfbc758",
+        "group": "51d4d6575ac99a1a",
+        "name": "",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "format": "",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "whiteWidget",
+        "x": 300,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c4102da57771c1d",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "",
+        "group": "51d4d6575ac99a1a",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Module 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "dashboard",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0de4437c6c633e3",
+        "type": "ui_button",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "",
+        "group": "51d4d6575ac99a1a",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Module 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "dashboard",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95224475065b82aa",
+        "type": "function",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "function 122",
+        "func": "var mod = global.get(\"module\");\n\nfor (let i = 0; i < mod; i++){\n    msg.payload = i;\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 600,
+        "wires": [
+            [
+                "e176145c9c8a75ae"
+            ]
+        ]
+    },
+    {
+        "id": "ca9acc85ab4b5755",
+        "type": "inject",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "95224475065b82aa"
+            ]
+        ]
+    },
+    {
+        "id": "e176145c9c8a75ae",
+        "type": "debug",
+        "z": "c8d4c5b3ebfbc758",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 700,
+        "wires": []
     },
     {
         "id": "326e6945956519c0",
@@ -7494,8 +8357,8 @@
         "payloadType": "date",
         "topic": "topic",
         "topicType": "msg",
-        "x": 450,
-        "y": 140,
+        "x": 480,
+        "y": 280,
         "wires": [
             [
                 "27d6e75712582398"
@@ -7568,7 +8431,7 @@
         "g": "b308ef64f2bc8284",
         "name": "",
         "events": "all",
-        "x": 770,
+        "x": 900,
         "y": 200,
         "wires": [
             []
@@ -7641,7 +8504,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 470,
-        "y": 240,
+        "y": 160,
         "wires": [
             [
                 "de6e8cd4f9bd5a3e"
@@ -7984,15 +8847,15 @@
         "z": "108ea5926394b962",
         "g": "b308ef64f2bc8284",
         "name": "Select User",
-        "func": "var user1 = global.get('user');\nvar user = msg.payload[0];\n\nif (user1 == \"siswa\"){\n    msg.payload = {\n        \"tab\":\"MHSiswa\"\n    }\n} else if (user1 == \"guru\"){\n    msg.payload = {\n        \"tab\":\"MHGuru\"\n    }\n}\n\nreturn msg;",
+        "func": "var user1 = global.get(\"user\");\nvar user = msg.payload[0];\n\nif (user1 == \"siswa\"){\n    msg.payload = {\n        \"tab\":\"MHSiswa\"\n    }\n} else if (user1 == \"guru\"){\n    msg.payload = {\n        \"tab\":\"MHGuru\"\n    }\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
-        "y": 140,
+        "x": 650,
+        "y": 280,
         "wires": [
             [
                 "de6e8cd4f9bd5a3e"
@@ -8870,7 +9733,28 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 480,
-        "y": 280,
+        "y": 240,
+        "wires": [
+            [
+                "a521f130c24b94d3"
+            ]
+        ]
+    },
+    {
+        "id": "a521f130c24b94d3",
+        "type": "function",
+        "z": "108ea5926394b962",
+        "g": "b308ef64f2bc8284",
+        "name": "Select User",
+        "func": "var user1 = global.get(\"user\");\n\nif (user1 == \"siswa\"){\n    msg.payload = {\n        \"tab\":\"ModuleSiswa\"\n    }\n} else if (user1 == \"guru\"){\n    msg.payload = {\n        \"tab\":\"ModuleGuru\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 240,
         "wires": [
             [
                 "de6e8cd4f9bd5a3e"
@@ -10336,7 +11220,7 @@
         "label": "3P / 1P",
         "tooltip": "",
         "group": "c9175d8d9a4a294f",
-        "order": 3,
+        "order": 2,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -10389,7 +11273,7 @@
         "label": "1P / 3P",
         "tooltip": "",
         "group": "c9175d8d9a4a294f",
-        "order": 5,
+        "order": 3,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -10421,7 +11305,7 @@
         "label": "DC / AC",
         "tooltip": "",
         "group": "c9175d8d9a4a294f",
-        "order": 9,
+        "order": 5,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -10453,7 +11337,7 @@
         "label": "AC / DC",
         "tooltip": "",
         "group": "c9175d8d9a4a294f",
-        "order": 7,
+        "order": 4,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -10485,7 +11369,7 @@
         "label": "Pompa DC",
         "tooltip": "",
         "group": "c9175d8d9a4a294f",
-        "order": 17,
+        "order": 9,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -10517,7 +11401,7 @@
         "label": "Lampu",
         "tooltip": "",
         "group": "c9175d8d9a4a294f",
-        "order": 15,
+        "order": 8,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -10549,7 +11433,7 @@
         "label": "Pompa AC",
         "tooltip": "",
         "group": "c9175d8d9a4a294f",
-        "order": 13,
+        "order": 7,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -10581,7 +11465,7 @@
         "label": "{{msg.payload}}",
         "tooltip": "",
         "group": "bbc71ca6f91aa02f",
-        "order": 2,
+        "order": 8,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -10605,7 +11489,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "c9175d8d9a4a294f",
-        "order": 11,
+        "order": 6,
         "width": 4,
         "height": 1,
         "name": "",
@@ -10649,7 +11533,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 23,
+        "order": 12,
         "width": 4,
         "height": 1,
         "name": "",
@@ -10673,7 +11557,7 @@
         "label": "{{msg.payload}}",
         "tooltip": "",
         "group": "bbc71ca6f91aa02f",
-        "order": 6,
+        "order": 3,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -10700,7 +11584,7 @@
         "label": "{{msg.payload}}",
         "tooltip": "",
         "group": "bbc71ca6f91aa02f",
-        "order": 15,
+        "order": 5,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -10724,7 +11608,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 4,
+        "order": 1,
         "width": 4,
         "height": 1,
         "name": "",
@@ -10748,7 +11632,7 @@
         "label": "{{msg.payload}}",
         "tooltip": "",
         "group": "bbc71ca6f91aa02f",
-        "order": 21,
+        "order": 14,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -10772,7 +11656,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 12,
+        "order": 6,
         "width": 4,
         "height": 1,
         "name": "",
@@ -10796,7 +11680,7 @@
         "label": "{{msg.payload}}",
         "tooltip": "",
         "group": "bbc71ca6f91aa02f",
-        "order": 26,
+        "order": 11,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -10820,7 +11704,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 18,
+        "order": 9,
         "width": 4,
         "height": 1,
         "name": "",
@@ -10841,7 +11725,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 22,
+        "order": 13,
         "width": 1,
         "height": 1,
         "name": "",
@@ -10862,7 +11746,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 16,
+        "order": 10,
         "width": 1,
         "height": 1,
         "name": "",
@@ -10883,7 +11767,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 10,
+        "order": 4,
         "width": 1,
         "height": 1,
         "name": "",
@@ -10904,7 +11788,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 8,
+        "order": 2,
         "width": 1,
         "height": 1,
         "name": "",
@@ -10925,7 +11809,7 @@
         "type": "ui_text",
         "z": "4122b709444945dd",
         "group": "bbc71ca6f91aa02f",
-        "order": 1,
+        "order": 7,
         "width": 1,
         "height": 1,
         "name": "",
